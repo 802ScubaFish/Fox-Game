@@ -6,3 +6,10 @@ Special Thanks to Burlington Code Acadamy and Github for the Student Dev. Packag
 
 Created by -
 Christian Dow @ ChristianDow.com
+
+----------------------------------------------------------------------------
+File Structure:
+
+bg = backgrounds / buttons / icons
+pet = individual pet states
+sprite.css = all styling for the pet
