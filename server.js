@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const port = process.env.PORT || 5000;
-const public = path.resolve('./dist');
+const public = path.resolve('src');
 
 app.use(express.static(public));
 
