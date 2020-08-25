@@ -4,7 +4,7 @@
   "description": "A Simple Fox Game",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "parcel src/index.html",
     "dev": "parcel src/index.html",
     "test": "jest",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
