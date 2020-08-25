@@ -4,7 +4,7 @@
   "description": "A Simple Fox Game",
   "main": "index.js",
   "scripts": {
-    "start": "src/index.html",
+    "start": "node server.js",
     "dev": "parcel src/index.html",
     "test": "jest",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
@@ -29,5 +29,8 @@
     "jest": "^26.4.2",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
