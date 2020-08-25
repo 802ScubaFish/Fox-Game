@@ -4,7 +4,12 @@
   "description": "A Simple Fox Game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "test": "jest",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/802ScubaFish/Fox-Game/issues"
   },
-  "homepage": "https://github.com/802ScubaFish/Fox-Game#readme"
+  "homepage": "https://github.com/802ScubaFish/Fox-Game#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.0"
+  }
 }
