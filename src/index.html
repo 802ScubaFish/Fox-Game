@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Origianlly used Parce, which set up imports/exports. But should not deploy with Parcel so switched to Express and lost import/export functionality -->
+    <!-- ended here 08/25/2020 switching line 5 to type='module' has given a new error code about mime types  -->
+    <script type="module" src="./init.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -40,6 +43,6 @@
       </div>
     </div>
 
-    <script src="./init.js"></script>
+    
   </body>
 </html>
