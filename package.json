@@ -4,7 +4,8 @@
   "description": "A Simple Fox Game",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "npm run build && node server.js",
+    "build": "parcel build src/index.html",
     "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
     "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
     "dev": "parcel src/index.html",
