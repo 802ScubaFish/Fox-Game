@@ -8,6 +8,8 @@ Created by -
 Christian Dow @ ChristianDow.com
 
 ----------------------------------------------------------------------------
+To Play This Game, Simply Enter 'NPM Start' in Node
+
 File Structure:
 
 bg = backgrounds / buttons / icons
